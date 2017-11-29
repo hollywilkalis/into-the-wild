@@ -1,0 +1,24 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+
+#carouselExampleIndicators {
+  width: 75vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:75vw;
+}

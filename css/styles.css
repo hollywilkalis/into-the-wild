@@ -5,6 +5,15 @@
   border:1px dashed #000;
 }
 
+body {
+   background-image: url("../img/background.jpg");
+   background-color: #cccccc;
+}
+
+.container {
+  background-color: #fff;
+}
+
 .columns {
   min-height: 100px;
 }
@@ -12,11 +21,12 @@
 /* End for testing */
 
 #carouselExampleIndicators {
-  width: 75vw;
+  width: 75vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1vh;
+  margin-bottom: 3vh;
 }
 
 .carousel-inner > .carousel-item > img {
